@@ -38,10 +38,10 @@ export default function RestaurantHome() {
         image: "/images/indian-dalmakhani.jpg"
       },
       {
-        name: "Zafrani Shahi Tukda & Malai Kulfi",
-        desc: "Ghee-crisped brioche soaked in rabri with saffron strands, crushed Iranian pistachios, and traditional churned kulfi.",
+        name: "Artisanal South Indian Ghee Podi Idli",
+        desc: "Steamed fermented rice and lentil cakes drenched in golden organic A2 ghee, dusted with aromatic gun powder podi, served with slow-simmered drumstick sambar and coconut chutney.",
         price: "$16",
-        image: "/images/indian-shahitukda.jpg"
+        image: "/images/indian-idli.jpg"
       }
     ],
     mains: [
@@ -311,7 +311,7 @@ export default function RestaurantHome() {
                   <p className="text-xs text-[#D97745] mt-1 font-semibold uppercase tracking-wider">Master of Tandoor &amp; Awadhi Dum</p>
                 </div>
                 <div>
-                  <h4 className="font-serif text-xl font-bold text-white">Antoine Laurent</h4>
+                  <h4 className="font-serif text-xl font-bold text-white">Thanoj Sriman</h4>
                   <p className="text-xs text-[#D97745] mt-1 font-semibold uppercase tracking-wider">Executive Sommelier &amp; Co-Founder</p>
                 </div>
               </div>
