@@ -511,7 +511,7 @@ export default function RestaurantHome() {
             <span className="font-serif text-white tracking-widest uppercase font-bold text-sm">
               L&apos;ARTISAN
             </span>
-            <span className="text-[#8F847A]">• 104 Mercer Street, Soho, New York</span>
+            <span className="text-[#8F847A]">• Hyderabad, India</span>
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6 text-center sm:text-right">
             <p>© 2026 L&apos;Artisan Bistro. All rights reserved.</p>
