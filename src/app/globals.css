@@ -1,26 +1,49 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  /* Firefox scrollbar support */
+  scrollbar-width: thin;
+  scrollbar-color: #8A4A28 #11100E;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+  background-color: #11100E;
+  color: #E8E3DF;
+}
+
+/* Custom Scrollbar - Themed for L'Artisan Warm Ember & Dark Hearth */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #11100E;
+  border-left: 1px solid #241F1A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6E391F;
+  border-radius: 9999px;
+  border: 2px solid #11100E;
+  transition: background-color 0.25s ease, border-color 0.25s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D97745;
+  box-shadow: 0 0 10px rgba(217, 119, 69, 0.4);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #E58655;
+}
+
+/* Horizontal scrollbar styling for any overflowing carousels/tables */
+::-webkit-scrollbar-corner {
+  background: #11100E;
 }

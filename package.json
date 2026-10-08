@@ -1,6 +1,19 @@
 {
-  "name": "base-template",
-  "version": "0.1.0",
+  "name": "l-artisan-bistro",
+  "version": "1.0.0",
+  "description": "Luxury fine dining and royal heritage restaurant web application featuring seasonal degustation menus, ambiance exploration, and table reservation booking.",
+  "author": "thanojsriman",
+  "license": "MIT",
+  "keywords": [
+    "nextjs",
+    "react",
+    "tailwindcss",
+    "framer-motion",
+    "restaurant",
+    "fine-dining",
+    "degustation",
+    "bistro"
+  ],
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,9 +22,13 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^14.0.0",
+    "lucide-react": "^1.51.0",
     "next": "16.3.8",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "tailwind-merge": "^3.7.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
